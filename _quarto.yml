@@ -41,10 +41,8 @@ website:
       style: docked
       contents: 
         - education/index.qmd
-        # - section: Applied Fine-Tuning
-        #   contents: 
-        #     - education/fine_tuning_course/workshop_1.qmd
-        #     - education/fine_tuning_course/workshop_4.qmd
+        - section: For Executives
+          href: education/index.qmd#exec-ed
         - section: Evals
           href: education/evals/index.qmd
           contents: 

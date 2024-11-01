@@ -1,12 +1,24 @@
 ---
 id: conf
-title: Educational Resources
+title: All Education
 image: parlance_edu2.png
-description: Educational resources on LLMs
+description: Educational resources on AI
 metadata-files: ["_listing_root.yml"]
 order: 2
 toc: false
 listing:
+  - id: exec-ed
+    contents:
+      - title: "AI Mastery for Busy Executives"
+        description: "Free 9-day email course with lessons from 30+ AI implementations. Learn how to drive ROI and avoid costly mistakes."
+        image: exec_ed.png
+        path: https://ai-execs.com/
+    type: grid
+    sort: false
+    fields: ["image", "title", "description"]
+    sort-ui: false
+    filter-ui: false
+    max-description-length: 100
   - id: talks-evals
     contents: 
       - "evals/*.qmd"
@@ -115,6 +127,16 @@ aliases:
   - /talks/index.html
 ---
 
+## Executive Education
+
+Learn how to implement AI effectively in your organization with our executive education program.
+
+:::{#exec-ed}
+:::
+
+---
+
+## LLM Educational Resources
 
 Hear from practitioners on a wide range of topics on LLMs, including [RAG](#rag), [evaluation](#evals), [applications](#building-applications), [fine-tuning](#fine-tuning) and [prompt engineering](#prompt-engineering).
 
@@ -134,8 +156,6 @@ Retrieval Augmented Generation
 :::{#talks-rag}
 :::
 
-
-
 ---
 
 ## Building Applications
@@ -148,7 +168,6 @@ Examples and best practices of building applications with LLMs
 ---
 
 ## Prompt Engineering
-
 
 Effective prompt engineering techniques for LLMs
 
